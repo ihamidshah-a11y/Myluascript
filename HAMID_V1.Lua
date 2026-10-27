@@ -116,7 +116,7 @@ end)
 
 -- 3. S-BUTTON (Rainbow Border)
 local sHold = Instance.new("Frame", sg); sHold.Size = UDim2.new(0, 65, 0, 65); sHold.Position = UDim2.new(0, 30, 0.5, -30); sHold.BackgroundTransparency = 1
-local sBtn = Instance.new("TextButton", sHold); sBtn.Size = UDim2.new(0.7,0,0.7,0); sBtn.Position = UDim2.new(0.15,0,0.15,0); sBtn.BackgroundColor3 = Color3.new(0,0,0); sBtn.Text = "S"; sBtn.TextColor3 = Color3.new(1,1,1); sBtn.Font = "FredokaOne"; sBtn.TextSize = 24; Instance.new("UICorner", sBtn).CornerRadius = UDim.new(1,0)
+local sBtn = Instance.new("TextButton", sHold); sBtn.Size = UDim2.new(0.7,0,0.7,0); sBtn.Position = UDim2.new(0.15,0,0.15,0); sBtn.BackgroundColor3 = Color3.new(0,0,0); sBtn.Text = "H"; sBtn.TextColor3 = Color3.new(1,1,1); sBtn.Font = "FredokaOne"; sBtn.TextSize = 24; Instance.new("UICorner", sBtn).CornerRadius = UDim.new(1,0)
 local sStroke = Instance.new("UIStroke", sBtn); sStroke.Thickness = 2
 
 run.RenderStepped:Connect(function()
