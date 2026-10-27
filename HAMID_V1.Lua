@@ -57,7 +57,12 @@ local function makeDraggable(gui, dragPart)
         if input.UserInputType == Enum.UserInputType.MouseButton1 or input.UserInputType == Enum.UserInputType.Touch then dragging = false end
     end)
 end
-
+-- EXECUTE SOUND
+local sound = Instance.new("Sound")
+sound.SoundId = "rbxassetid://71262389650741"
+sound.Volume = 0.7
+sound.Parent = game:GetService("SoundService")
+sound:Play()
 -- 2. GUI CONSTRUCTION
 if cg:FindFirstChild("SAMMY_V1_FINAL") then cg:FindFirstChild("SAMMY_V1_FINAL"):Destroy() end
 local sg = Instance.new("ScreenGui", cg); sg.Name = "HAMID_V1_FINAL"
